@@ -62,10 +62,10 @@ body {
   display: none;
 }
 #result {
-  position: fixed;
+  position: top;
   top: 10%; 
   left: 10%;
-  transform: translate(-50%, -50%);
+  transform: translate(140%, -320%);
   height: 250px;
   width: 400px;
   background-color: #171717;
@@ -92,6 +92,7 @@ body {
 }
 .inactive {
   border: 2px solid white !important;
+
 }
 .hidden {
   display: none;
