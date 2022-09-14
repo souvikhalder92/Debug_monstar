@@ -65,7 +65,7 @@ body {
   position: top;
   top: 10%; 
   left: 10%;
-  transform: translate(140%, -320%);
+  transform: translate(140%, -340%);
   height: 250px;
   width: 400px;
   background-color: #171717;
@@ -143,8 +143,9 @@ button {
 }
 
 #histories {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
   justify-content: space-around;
 }
 
