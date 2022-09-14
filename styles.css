@@ -10,6 +10,17 @@ body {
   background-position: left top;
   font-family: "Zilla Slab", serif;
 }
+.head{
+  margin-top:15px;
+  margin-left: 1320px;
+  display: flex;
+}
+.head>a{
+  margin-left: 10px;
+  color:white;
+  font-size: 24px;
+  text-decoration: none;
+}
 
 .box-container {
   width: 70%;
@@ -154,6 +165,7 @@ button {
   height: 100%;
   padding: 50px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 20px 30px;
@@ -213,6 +225,7 @@ footer{
 }
 
 @media only screen and (max-width: 700px) {
+ 
   .box-container {
     padding: 0 20px;
     width: 100%;
@@ -220,4 +233,13 @@ footer{
   .card {
     flex-direction: column;
   }
+  .head{
+    margin-left: 160px;
+  }
+  
+#histories {
+   display: flex;
+ flex-direction: column;
+ 
+}
 }
