@@ -74,9 +74,9 @@ body {
 }
 #result {
   position: top;
-  top: 10%; 
+  top: 10%;
   left: 10%;
-  transform: translate(140%, -400%);
+  transform: translate(140%, -260%);
   height: 250px;
   width: 400px;
   background-color: #171717;
